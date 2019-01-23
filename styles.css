@@ -871,6 +871,15 @@ button {
   margin: 1rem;
 }
 
+.fa-facebook-square {
+  font-size: 3rem;
+  transition: all 0.3s ease-in-out;
+}
+.fa-facebook-square:hover {
+  color: rgb(66, 103, 178);
+  transform: scale(1.1);
+}
+
 .footer__attribution {
   font-size: 1.5rem;
   color: white;
