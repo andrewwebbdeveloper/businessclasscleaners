@@ -904,3 +904,15 @@ button {
     transition: all 0.3s ease-in-out;
   }
 }
+.contact__cta {
+  position: absolute;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  transform: translate(1rem);
+  width: 20rem;
+  height: 8rem;
+  border-radius: 1rem;
+  background-clip: border-box;
+  background-color: rgb(53, 204, 111);
+}
