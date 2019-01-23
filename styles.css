@@ -39,7 +39,7 @@ html {
 }
 @media only screen and (max-width: 800px) {
   html {
-    font-size: 50%;
+    font-size: 53%;
   }
 }
 /* @media only screen and (max-width: 500px) {
@@ -50,7 +50,7 @@ html {
 
 @media only screen and (min-width: 1200px) {
   html {
-    font-size: 75%;
+    font-size: 60%;
   }
 }
 
@@ -111,9 +111,9 @@ button {
       [center-end right-start right-end];
   }
 }
-@media only screen and (max-width: 625px) {
+@media only screen and (max-width: 650px) {
   .container {
-    grid-template-rows: auto;
+    grid-template-rows: min-content;
   }
 }
 
@@ -381,7 +381,7 @@ button {
       rgba(7, 14, 10, 1)
     );
     width: 100%;
-    height: 100%;
+    height: 100rem;
   }
 
   .hero__heading--1 {
@@ -414,6 +414,7 @@ button {
   top: 30rem;
 }
 .about {
+  padding-top: 3rem;
   z-index: 100;
   grid-column: left-start / right-end;
   display: grid;
@@ -892,4 +893,14 @@ button {
 .footer__attribution a {
   text-decoration: none;
   color: rgba(103, 127, 112, 1);
+}
+@media only screen and (max-width: 650px) {
+  .footer__links a {
+    font-size: 1.5rem;
+  }
+
+  .fa-facebook-square {
+    font-size: 3rem;
+    transition: all 0.3s ease-in-out;
+  }
 }
