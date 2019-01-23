@@ -1,0 +1,19 @@
+{
+  "name": "bcc-2",
+  "version": "1.0.0",
+  "description": "Business Class Cleaners",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewwebbdeveloper/businessclasscleaners.git"
+  },
+  "author": "Andrew Webb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewwebbdeveloper/businessclasscleaners/issues"
+  },
+  "homepage": "https://github.com/andrewwebbdeveloper/businessclasscleaners#readme"
+}
