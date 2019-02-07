@@ -98,7 +98,10 @@ button {
 .container {
   display: grid;
   grid-template-rows:
-    60rem min-content 50rem min-content min-content minmax(min-content, 20rem)
+    60rem min-content min-content 50rem min-content min-content minmax(
+      min-content,
+      20rem
+    )
     [page-bottom];
   grid-template-columns:
     [left-start] minmax(1rem, 1fr) [left-end center-start] repeat(8, 1fr)
@@ -525,7 +528,7 @@ button {
   text-shadow: 1.5rem 1.5rem 4rem rgba(0, 0, 0, 0.45);
 
   margin-top: 1.7rem;
-  padding: 2rem;
+  padding: 1.5rem;
   color: rgba(66, 62, 61, 1);
 }
 .card__body {
