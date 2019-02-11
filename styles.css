@@ -98,10 +98,7 @@ button {
 .container {
   display: grid;
   grid-template-rows:
-    60rem min-content min-content 50rem min-content min-content minmax(
-      min-content,
-      20rem
-    )
+    60rem min-content 50rem min-content min-content minmax(min-content, 20rem)
     [page-bottom];
   grid-template-columns:
     [left-start] minmax(1rem, 1fr) [left-end center-start] repeat(8, 1fr)
@@ -416,7 +413,9 @@ button {
 #about:target {
   top: 30rem;
 }
-
+.group1 {
+  margin-bottom: 8vmin;
+}
 .about {
   padding-top: 3rem;
   z-index: 100;
@@ -556,6 +555,9 @@ button {
     font-weight: 500;
     font-size: 2.5rem;
     color: rgba(66, 62, 61, 1);
+  }
+  #big__picture {
+    margin: 3rem;
   }
 }
 
